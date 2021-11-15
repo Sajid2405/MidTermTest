@@ -1,13 +1,28 @@
 {
-  "name": "desktop",
+  "name": "node-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sajid2405/MidTermApp.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sajid2405/MidTermApp/issues"
+  },
+  "homepage": "https://github.com/Sajid2405/MidTermApp#readme",
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "supertest": "^6.1.6"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
